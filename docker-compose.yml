@@ -1,0 +1,22 @@
+version: '3'
+services:
+  client:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    ports: 
+      - 8080:8080
+    environment: 
+      - PORT=8080
+    command: "php -f src/client.php"
+  server:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    ports: 
+      - 3000:3000
+    environment: 
+      - PORT=3000
+    command: "php -f src/server.php"

@@ -1,0 +1,10 @@
+{
+    "require": {
+        "swoole/ide-helper": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

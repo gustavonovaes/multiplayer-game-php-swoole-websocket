@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Meu Primeiro Jogo Multiplayer</title>
+
+  <link rel="stylesheet"
+        href="/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <canvas id="screen"
+            width="10"
+            height="10"></canvas>
+
+    <div class="sidebar">
+
+      <div class="input-name">
+        <input type="text">
+        <button onclick="updateName()">💾</button>
+      </div>
+
+      <table id="score">
+        <colgroup>
+          <col width="80%">
+          <col>
+        </colgroup>
+        <thead>
+          <th>Player Name</th>
+          <th>Score</th>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <th>Total players: </th>
+          <th><span class="total-players">0</span></th>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+
+  <script defer
+          src="/game.js"></script>
+  </script>
+</body>
+
+</html>

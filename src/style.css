@@ -1,0 +1,86 @@
+body {
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.container {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#screen {
+  background-color: white;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.085);
+  height: 600px;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-crisp-edges;
+}
+
+.sidebar {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.input-name {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.085);
+  display: flex;
+  flex-direction: row;
+}
+
+.input-name input {
+  border: 1px solid #eaeaea;
+  font-family: inherit;
+  padding: 10px;
+}
+
+.input-name button {
+  border: 1px solid #eaeaea;
+}
+
+.input-name button:hover {
+  background-color: #4bb543;
+  cursor: pointer;
+}
+
+#score {
+  background-color: #ffffff;
+  border-spacing: 0;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.085);
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+#score thead th {
+  border-bottom: 1px solid #ddd;
+  padding: 4px 0;
+}
+
+#score tfoot th {
+  border-top: 1px solid #ddd;
+  padding: 4px 0;
+}
+
+#score td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.player {
+  background-color: #FBB933;
+}
