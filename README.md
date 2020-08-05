@@ -26,7 +26,7 @@ This is the "Catalog Page" project.
 - Apple Music or Spotify app
 - Calendar
 - Show and filters repository on Github
-- Something that uses external API
+- [x] [Something that uses external API](https://gustavonovaes.github.io/breaking-bad-cast/)
 - [x] [Catalog page](https://github.com/gustavonovaes/microsoft-official-page-clone)
 - E-commerce
 - Your own portifolio
