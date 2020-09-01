@@ -19,7 +19,7 @@ Then access [http://127.0.0.1:8080](http://127.0.0.1:8080)
 ## Why
 I'm doing a personal challenge, which is to create 10 projects, proposed by Felipe Deschamps in [this video](https://www.youtube.com/watch?v=fYR9L2ZmodM).
 
-This is the "Catalog Page" project.
+This is the "Create your own multiplayer game" project.
 
 - Rich-text editor
 - Monitor-like Activity Monitor from macOS
